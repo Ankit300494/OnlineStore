@@ -8,6 +8,9 @@ public class BaseClass {
 	public  BaseClass(WebDriver driver){
 		BaseClass.driver = driver;
 		BaseClass.bResult = true;
+	}private void sysout() {
+		// TODO Auto-generated method stub
+System.out.println("test");
 	}
 
 }
